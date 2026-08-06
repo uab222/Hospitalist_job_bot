@@ -25,8 +25,7 @@ I am writing to express my interest in the Daytime hospitalist, 7 on/7 off posit
 - Board certified, American Board of Internal Medicine, with current Maintenance of Certification
 - Track record of stable, long-term commitment to a single health system since 2013
 
-I am relocating to the Orange County area relocating to Orange County, CA for family / school reasons
-, and this opportunity caught my attention (I saw the posting mentions 7 on/7 off, which matches my preference). I am open to full-time, part-time, or per-diem arrangements.
+I am relocating to the Orange County area for family reasons, and this opportunity caught my attention (I saw the posting mentions 7 on/7 off, which matches my preference). I am open to full-time, part-time, or per-diem arrangements.
 
 I would welcome the chance to discuss how my experience could contribute to your hospital medicine program. My CV is attached for your review.
 
@@ -57,8 +56,7 @@ I am writing to express my interest in the Neurosurgery Hospitalist: 7 on/7 off,
 - Board certified, American Board of Internal Medicine, with current Maintenance of Certification
 - Track record of stable, long-term commitment to a single health system since 2013
 
-I am relocating to the Orange County area relocating to Orange County, CA for family / school reasons
-, and this opportunity caught my attention (I saw the posting mentions 7 on/7 off, which matches my preference). I am open to full-time, part-time, or per-diem arrangements.
+I am relocating to the Orange County area for family reasons, and this opportunity caught my attention (I saw the posting mentions 7 on/7 off, which matches my preference). I am open to full-time, part-time, or per-diem arrangements.
 
 I would welcome the chance to discuss how my experience could contribute to your hospital medicine program. My CV is attached for your review.
 
@@ -89,8 +87,7 @@ I am writing to express my interest in the Director of Hospitalist Medicine posi
 - Board certified, American Board of Internal Medicine, with current Maintenance of Certification
 - Track record of stable, long-term commitment to a single health system since 2013
 
-I am relocating to the Orange County area relocating to Orange County, CA for family / school reasons
-, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
+I am relocating to the Orange County area for family reasons, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
 
 I would welcome the chance to discuss how my experience could contribute to your hospital medicine program. My CV is attached for your review.
 
@@ -121,8 +118,7 @@ I am writing to express my interest in the Physician - Gastroenterology Hospital
 - Board certified, American Board of Internal Medicine, with current Maintenance of Certification
 - Track record of stable, long-term commitment to a single health system since 2013
 
-I am relocating to the Orange County area relocating to Orange County, CA for family / school reasons
-, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
+I am relocating to the Orange County area for family reasons, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
 
 I would welcome the chance to discuss how my experience could contribute to your hospital medicine program. My CV is attached for your review.
 
@@ -153,8 +149,7 @@ I am writing to express my interest in the JCMPG Hospitalist Per Diem APRN-PA (N
 - Board certified, American Board of Internal Medicine, with current Maintenance of Certification
 - Track record of stable, long-term commitment to a single health system since 2013
 
-I am relocating to the Orange County area relocating to Orange County, CA for family / school reasons
-, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
+I am relocating to the Orange County area for family reasons, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
 
 I would welcome the chance to discuss how my experience could contribute to your hospital medicine program. My CV is attached for your review.
 
@@ -170,7 +165,7 @@ nudrat.usman@gmail.com | 310-462-5922
 - **location:** Orange, Orange County
 - **employment type:** unknown
 - **source:** adzuna
-- **link:** https://www.adzuna.com/land/ad/5554822912?se=7LLnZfKR8RGCBfheOeDrGw&utm_medium=api&utm_source=c8d12caa&v=0FE8731A6158EB2388C37A6E2D610A212077816C
+- **link:** https://www.adzuna.com/land/ad/5554822912?se=ih-Bt_KR8RGUc4TlbGUL3A&utm_medium=api&utm_source=c8d12caa&v=0FE8731A6158EB2388C37A6E2D610A212077816C
 - **why it matched:** title matches 'Hospitalist'; location matches 'Orange County'; employment type unspecified by source (partial credit)
 
 <details><summary>Drafted cover letter</summary>
@@ -185,8 +180,7 @@ I am writing to express my interest in the Obstetrics Hospitalist/Laborist Physi
 - Board certified, American Board of Internal Medicine, with current Maintenance of Certification
 - Track record of stable, long-term commitment to a single health system since 2013
 
-I am relocating to the Orange County area relocating to Orange County, CA for family / school reasons
-, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
+I am relocating to the Orange County area for family reasons, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
 
 I would welcome the chance to discuss how my experience could contribute to your hospital medicine program. My CV is attached for your review.
 
@@ -202,7 +196,7 @@ nudrat.usman@gmail.com | 310-462-5922
 - **location:** Huntington, Orange County
 - **employment type:** unknown
 - **source:** adzuna
-- **link:** https://www.adzuna.com/land/ad/5671274779?se=7LLnZfKR8RGCBfheOeDrGw&utm_medium=api&utm_source=c8d12caa&v=4EA90FEC0C513932B8A6AB2B6136738CE2A9D714
+- **link:** https://www.adzuna.com/land/ad/5671274779?se=ih-Bt_KR8RGUc4TlbGUL3A&utm_medium=api&utm_source=c8d12caa&v=4EA90FEC0C513932B8A6AB2B6136738CE2A9D714
 - **why it matched:** title matches 'Hospitalist'; location matches 'Orange County'; employment type unspecified by source (partial credit)
 
 <details><summary>Drafted cover letter</summary>
@@ -217,8 +211,7 @@ I am writing to express my interest in the Hospitalist - Nocturnist with Centers
 - Board certified, American Board of Internal Medicine, with current Maintenance of Certification
 - Track record of stable, long-term commitment to a single health system since 2013
 
-I am relocating to the Orange County area relocating to Orange County, CA for family / school reasons
-, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
+I am relocating to the Orange County area for family reasons, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
 
 I would welcome the chance to discuss how my experience could contribute to your hospital medicine program. My CV is attached for your review.
 
@@ -249,8 +242,7 @@ I am writing to express my interest in the Hospitalist Pomona Valley - Physician
 - Board certified, American Board of Internal Medicine, with current Maintenance of Certification
 - Track record of stable, long-term commitment to a single health system since 2013
 
-I am relocating to the Orange County area relocating to Orange County, CA for family / school reasons
-, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
+I am relocating to the Orange County area for family reasons, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
 
 I would welcome the chance to discuss how my experience could contribute to your hospital medicine program. My CV is attached for your review.
 
@@ -281,8 +273,7 @@ I am writing to express my interest in the OB Hospitalist - Full-Time | Hoag Irv
 - Board certified, American Board of Internal Medicine, with current Maintenance of Certification
 - Track record of stable, long-term commitment to a single health system since 2013
 
-I am relocating to the Orange County area relocating to Orange County, CA for family / school reasons
-, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
+I am relocating to the Orange County area for family reasons, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
 
 I would welcome the chance to discuss how my experience could contribute to your hospital medicine program. My CV is attached for your review.
 
@@ -313,8 +304,7 @@ I am writing to express my interest in the Hospital Medicine (Neurosurgery) Per 
 - Board certified, American Board of Internal Medicine, with current Maintenance of Certification
 - Track record of stable, long-term commitment to a single health system since 2013
 
-I am relocating to the Orange County area relocating to Orange County, CA for family / school reasons
-, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
+I am relocating to the Orange County area for family reasons, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
 
 I would welcome the chance to discuss how my experience could contribute to your hospital medicine program. My CV is attached for your review.
 
@@ -345,8 +335,7 @@ I am writing to express my interest in the Hospital Medicine (Neurosurgery) Per 
 - Board certified, American Board of Internal Medicine, with current Maintenance of Certification
 - Track record of stable, long-term commitment to a single health system since 2013
 
-I am relocating to the Orange County area relocating to Orange County, CA for family / school reasons
-, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
+I am relocating to the Orange County area for family reasons, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
 
 I would welcome the chance to discuss how my experience could contribute to your hospital medicine program. My CV is attached for your review.
 
