@@ -1,0 +1,40 @@
+# Structured facts about you, used to draft cover letters.
+# Pre-filled from what you told me -- please double check every field,
+# especially anything that will go out under your name.
+
+name: "Usman Ali, MD"
+email: "usman.ali@gmail.com"
+phone: ""                         # add your phone number
+credentials: "MD"                 # e.g. "MD, FACP" -- add board certifications
+years_experience: 14
+current_employer: "Providence (Torrance & San Pedro campuses)"
+current_role: "Hospitalist / Partner"
+partner_status: true
+
+specialty: "Hospital Medicine / Hospitalist"
+
+relocation_reason: >
+  relocating to Orange County, CA for family / school reasons
+
+target_locations:
+  - "Irvine, CA"
+  - "Mission Viejo, CA"
+  - "Newport Beach, CA"
+  - "Orange County, CA"
+
+schedule_preference: "7-on/7-off, day shift preferred"
+employment_types_open_to:
+  - "Full-time"
+  - "Part-time"
+  - "Per-diem"
+
+# Path to your actual CV file (PDF/DOCX). Drop the file in resume/ and
+# update this path -- it gets attached to emailed applications.
+resume_file: "resume/Usman_Ali_CV.pdf"
+
+# A couple of sentences highlighting what makes you a strong candidate.
+# Used verbatim in the drafted cover letters -- edit to taste.
+highlights:
+  - "14 years of hospital medicine experience with a single health system (Providence)"
+  - "Current partner in a hospitalist group -- direct experience with group operations and leadership"
+  - "Track record of stable, long-term commitment to a program"

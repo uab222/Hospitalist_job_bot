@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Your actual CV -- keep it local unless you want it version-controlled.
+resume/*
+!resume/README.md
+
+.env

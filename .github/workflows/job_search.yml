@@ -1,0 +1,40 @@
+name: Daily job search
+
+on:
+  schedule:
+    # 14:00 UTC = 7:00 AM Pacific (6:00 AM during PDT) -- adjust as you like.
+    - cron: "0 14 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run search
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+        run: python -m hospitalist_job_bot search
+
+      - name: Build review report
+        run: python -m hospitalist_job_bot review
+
+      - name: Commit updated review queue
+        run: |
+          git config user.name "hospitalist-job-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Update job search review queue"
+          git push

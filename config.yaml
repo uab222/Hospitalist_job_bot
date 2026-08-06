@@ -1,0 +1,89 @@
+# Search criteria for the Hospitalist Job Bot.
+# Edit freely -- this file has no secrets in it, only preferences.
+
+titles:
+  - "Hospitalist"
+  - "Hospital Medicine Physician"
+  - "Hospital Medicine"
+  - "Internal Medicine Hospitalist"
+
+# Orange County, CA cities/areas to match on. A posting matches if its
+# location text contains any of these (case-insensitive), OR if it
+# explicitly says "Orange County".
+locations:
+  - "Orange County"
+  - "Irvine"
+  - "Mission Viejo"
+  - "Newport Beach"
+  - "Orange, CA"
+  - "Santa Ana"
+  - "Anaheim"
+  - "Costa Mesa"
+  - "Fountain Valley"
+  - "Laguna Hills"
+  - "Laguna Beach"
+  - "Huntington Beach"
+  - "Tustin"
+  - "Garden Grove"
+  - "Westminster"
+  - "Lake Forest"
+  - "Fullerton"
+
+employment_types:
+  - "full_time"
+  - "part_time"
+  - "per_diem"
+
+# These boost a posting's match score but do not exclude it if absent --
+# most job ads don't spell out the block schedule until you talk to them.
+schedule_preferences:
+  - "7 on 7 off"
+  - "7 on/7 off"
+  - "7on7off"
+  - "block schedule"
+  - "day shift"
+  - "days"
+
+# Minimum score (0-100) for a posting to be included in the review queue.
+min_score: 40
+
+# Employers to skip entirely -- your current employer, since you're
+# looking to relocate, not stay.
+exclude_employers:
+  - "Providence Little Company of Mary"
+  - "Providence Torrance"
+  - "Providence San Pedro"
+
+sources:
+  adzuna:
+    enabled: true
+    country: "us"
+    what: "hospitalist"
+    where: "Orange County, CA"
+    results_per_page: 50
+
+  # Workday-based hospital system career sites. Each of these tenants
+  # exposes a public JSON search API at
+  # https://{tenant}.wd{n}.myworkdayjobs.com/wday/cxs/{tenant}/{site}/jobs
+  # -- the same endpoint the public career page itself calls in a browser.
+  # Fill in / correct the wd{n} number and site slug per employer if it
+  # changes; check the employer's own careers page network tab if a lookup
+  # starts returning zero results.
+  workday:
+    enabled: true
+    tenants:
+      - name: "MemorialCare"
+        host: "memorialcare.wd1.myworkdayjobs.com"
+        tenant: "memorialcare"
+        site: "MemorialCare_Careers"
+        search_text: "hospitalist"
+      - name: "Providence (system-wide, excluding current sites)"
+        host: "providence.wd5.myworkdayjobs.com"
+        tenant: "providence"
+        site: "External"
+        search_text: "hospitalist Orange County"
+      - name: "UCI Health"
+        host: "uci.wd1.myworkdayjobs.com"
+        tenant: "uci"
+        site: "External_Career"
+        search_text: "hospitalist"
