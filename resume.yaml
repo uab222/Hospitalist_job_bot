@@ -14,8 +14,7 @@ partner_status: true
 
 specialty: "Hospital Medicine / Hospitalist"
 
-relocation_reason: >
-  relocating to Orange County, CA for family / school reasons
+relocation_reason: "for family reasons"
 
 target_locations:
   - "Irvine, CA"
