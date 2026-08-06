@@ -1,13 +1,14 @@
 # Structured facts about you, used to draft cover letters.
-# Pre-filled from what you told me -- please double check every field,
-# especially anything that will go out under your name.
+# Filled in from your CV (resume/CV_Nudrat_Usman_Dec_2025.pdf) -- please
+# double check every field, especially anything that will go out under
+# your name.
 
-name: "Usman Ali, MD"
-email: "usman.ali@gmail.com"
-phone: ""                         # add your phone number
-credentials: "MD"                 # e.g. "MD, FACP" -- add board certifications
+name: "Nudrat Usman, MD"
+email: "nudrat.usman@gmail.com"
+phone: "310-462-5922"
+credentials: "MD, American Board of Internal Medicine (certified Aug 2011, MOC current through 2024)"
 years_experience: 14
-current_employer: "Providence (Torrance & San Pedro campuses)"
+current_employer: "Providence Little Company of Mary, PMA Group (Torrance & San Pedro, CA)"
 current_role: "Hospitalist / Partner"
 partner_status: true
 
@@ -28,13 +29,16 @@ employment_types_open_to:
   - "Part-time"
   - "Per-diem"
 
-# Path to your actual CV file (PDF/DOCX). Drop the file in resume/ and
-# update this path -- it gets attached to emailed applications.
-resume_file: "resume/Usman_Ali_CV.pdf"
+# Path to your actual CV file (PDF/DOCX). Attached automatically to
+# emailed applications by hospitalist_job_bot/apply/email_apply.py.
+# NOTE: this file is gitignored (resume/* except README.md) so it stays
+# local and is never pushed to the repo.
+resume_file: "resume/CV_Nudrat_Usman_Dec_2025.pdf"
 
 # A couple of sentences highlighting what makes you a strong candidate.
 # Used verbatim in the drafted cover letters -- edit to taste.
 highlights:
-  - "14 years of hospital medicine experience with a single health system (Providence)"
-  - "Current partner in a hospitalist group -- direct experience with group operations and leadership"
-  - "Track record of stable, long-term commitment to a program"
+  - "14 years of hospital medicine experience, including open-ICU coverage, ventilator management, and hemodynamic stabilization alongside intensivists"
+  - "Current partner in a hospitalist group at Providence -- direct experience with group operations and leadership"
+  - "Board certified, American Board of Internal Medicine, with current Maintenance of Certification"
+  - "Track record of stable, long-term commitment to a single health system since 2013"
