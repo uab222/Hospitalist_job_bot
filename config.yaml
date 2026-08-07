@@ -66,24 +66,16 @@ sources:
   # exposes a public JSON search API at
   # https://{tenant}.wd{n}.myworkdayjobs.com/wday/cxs/{tenant}/{site}/jobs
   # -- the same endpoint the public career page itself calls in a browser.
-  # Fill in / correct the wd{n} number and site slug per employer if it
-  # changes; check the employer's own careers page network tab if a lookup
-  # starts returning zero results.
+  #
+  # Disabled: verified with a headless-browser network trace against the
+  # real career pages (careers.memorialcare.org, providence.jobs,
+  # jobs.uci.edu, careers.hoag.org, kaiserpermanentejobs.org) that none of
+  # them call a myworkdayjobs.com endpoint -- these employers simply
+  # aren't on Workday, so there's no tenant/site combination to guess.
+  # If you confirm a specific OC hospital system does use Workday, open
+  # its careers page in a browser, check the Network tab for a request to
+  # `/wday/cxs/...`, and fill in a tenant entry below with the real
+  # host/tenant/site before re-enabling.
   workday:
-    enabled: true
-    tenants:
-      - name: "MemorialCare"
-        host: "memorialcare.wd1.myworkdayjobs.com"
-        tenant: "memorialcare"
-        site: "MemorialCare_Careers"
-        search_text: "hospitalist"
-      - name: "Providence (system-wide, excluding current sites)"
-        host: "providence.wd5.myworkdayjobs.com"
-        tenant: "providence"
-        site: "External"
-        search_text: "hospitalist Orange County"
-      - name: "UCI Health"
-        host: "uci.wd1.myworkdayjobs.com"
-        tenant: "uci"
-        site: "External_Career"
-        search_text: "hospitalist"
+    enabled: false
+    tenants: []
