@@ -1,9 +1,12 @@
 """One-off diagnostic: find the real Workday CXS endpoint (host/tenant/site)
-for each hospital system's public career site, by following redirects from
-their known careers URL and scanning the resulting HTML/JS for
-*.myworkdayjobs.com references. Run only from an environment with real
-internet access (e.g. GitHub Actions) -- this repo's dev sandbox is
-network-restricted.
+for each hospital system's public career site, using a headless browser to
+load the page for real and watch the network traffic it actually makes.
+Static HTML fetches missed these -- Workday-embedded career sites are
+typically JS-rendered, so the /wday/cxs/ API call only fires after the
+page's own JavaScript runs, and won't appear in the raw HTML source.
+
+Run only from an environment with real internet access (e.g. GitHub
+Actions) -- this repo's dev sandbox is network-restricted.
 
 Not part of the bot itself -- delete this script and the accompanying
 debug_workday.yml workflow once the real endpoints are confirmed and
@@ -15,97 +18,69 @@ from __future__ import annotations
 import re
 import sys
 
-import requests
+from playwright.sync_api import sync_playwright
 
 UA = "HospitalistJobBot-Debug/0.1 (one-off endpoint discovery; personal job search tool)"
 
 CANDIDATES = {
-    "MemorialCare": [
-        "https://www.memorialcare.org/careers",
-        "https://memorialcare.org/careers",
-        "https://careers.memorialcare.org",
-    ],
-    "Providence": [
-        "https://www.providence.org/careers",
-        "https://careers.providence.org",
-        "https://jobs.providence.org",
-    ],
-    "UCI Health": [
-        "https://www.ucihealth.org/careers",
-        "https://jobs.uci.edu",
-        "https://careers.uci.edu",
-        "https://www.uci.edu/careers",
-    ],
-    "Hoag": [
-        "https://www.hoag.org/careers",
-        "https://careers.hoag.org",
-    ],
-    "Kaiser Permanente (Southern California)": [
-        "https://www.kaiserpermanentejobs.org",
-    ],
+    "MemorialCare": ["https://careers.memorialcare.org/"],
+    "Providence": ["https://www.providence.org/careers", "https://providence.jobs/"],
+    "UCI Health": ["https://jobs.uci.edu/careers-home/"],
+    "Hoag": ["https://careers.hoag.org/"],
+    "Kaiser Permanente (Southern California)": ["https://www.kaiserpermanentejobs.org/"],
 }
 
-WORKDAY_HOST_RE = re.compile(r"[a-zA-Z0-9.-]+\.wd\d+\.myworkdayjobs\.com")
-WORKDAY_URL_RE = re.compile(r"https?://[a-zA-Z0-9.-]+\.wd\d+\.myworkdayjobs\.com/[a-zA-Z0-9_/\-]*")
+WORKDAY_CXS_RE = re.compile(
+    r"https?://([a-zA-Z0-9.-]+\.wd\d+\.myworkdayjobs\.com)/wday/cxs/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/"
+)
 
 
-def probe_cxs(host: str, tenant: str, site: str) -> bool:
-    url = f"https://{host}/wday/cxs/{tenant}/{site}/jobs"
-    body = {"appliedFacets": {}, "limit": 1, "offset": 0, "searchText": ""}
-    try:
-        resp = requests.post(url, json=body, headers={"User-Agent": UA}, timeout=15)
-        ok = resp.status_code == 200 and "jobPostings" in resp.text
-        print(f"    CXS probe {url} -> {resp.status_code} {'OK, has jobPostings' if ok else ''}")
-        return ok
-    except requests.RequestException as exc:
-        print(f"    CXS probe {url} -> ERROR {exc}")
-        return False
+def probe(name: str, urls: list) -> None:
+    print(f"=== {name} ===")
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        page = browser.new_page(user_agent=UA)
+
+        seen_cxs_urls = set()
+
+        def on_request(request):
+            if "myworkdayjobs.com" in request.url or "/wday/" in request.url:
+                seen_cxs_urls.add(request.url)
+
+        page.on("request", on_request)
+
+        for url in urls:
+            try:
+                page.goto(url, wait_until="networkidle", timeout=30000)
+                print(f"  loaded {url} -> final URL: {page.url}")
+            except Exception as exc:  # noqa: BLE001 -- diagnostic script, print and continue
+                print(f"  {url} -> ERROR loading: {exc}")
+                continue
+
+            # Give any deferred/XHR-triggered requests (e.g. after a search
+            # box auto-focuses or a "browse jobs" widget lazy-loads) a
+            # moment to fire, then try clicking anything that looks like a
+            # jobs/search entry point to trigger it if it hasn't already.
+            page.wait_for_timeout(3000)
+
+        browser.close()
+
+        if seen_cxs_urls:
+            print(f"    workday/wday network calls observed:")
+            for u in sorted(seen_cxs_urls):
+                print(f"      {u}")
+                m = WORKDAY_CXS_RE.match(u)
+                if m:
+                    host, tenant, site = m.group(1), m.group(2), m.group(3)
+                    print(f"      => host={host} tenant={tenant} site={site}")
+        else:
+            print("    no myworkdayjobs.com / /wday/ network calls observed -- likely not on Workday")
+    print()
 
 
 def main() -> None:
     for name, urls in CANDIDATES.items():
-        print(f"=== {name} ===")
-        for url in urls:
-            try:
-                resp = requests.get(
-                    url, headers={"User-Agent": UA}, timeout=20, allow_redirects=True
-                )
-                final_url = resp.url
-                print(f"  {url} -> {resp.status_code} (final: {final_url})")
-
-                found_hosts = set(WORKDAY_HOST_RE.findall(final_url))
-                found_hosts |= set(WORKDAY_HOST_RE.findall(resp.text))
-                found_full_urls = set(WORKDAY_URL_RE.findall(resp.text))
-
-                if found_hosts:
-                    print(f"    workday hosts referenced: {sorted(found_hosts)}")
-                if found_full_urls:
-                    print(f"    full workday URLs referenced: {sorted(found_full_urls)}")
-
-                if "wd" in final_url and "myworkdayjobs.com" in final_url:
-                    # landed directly on the Workday site -- parse host/tenant/site
-                    m = re.match(
-                        r"https?://([a-zA-Z0-9.-]+\.wd\d+\.myworkdayjobs\.com)/([a-zA-Z0-9_-]+)",
-                        final_url,
-                    )
-                    if m:
-                        host, site = m.group(1), m.group(2)
-                        tenant = host.split(".")[0]
-                        print(f"    => derived host={host} tenant={tenant} site={site}")
-                        probe_cxs(host, tenant, site)
-            except requests.RequestException as exc:
-                print(f"  {url} -> ERROR {exc}")
-        print()
-
-    print("=== Re-checking currently configured tenants in config.yaml ===")
-    configured = [
-        ("MemorialCare", "memorialcare.wd1.myworkdayjobs.com", "memorialcare", "MemorialCare_Careers"),
-        ("Providence", "providence.wd5.myworkdayjobs.com", "providence", "External"),
-        ("UCI Health", "uci.wd1.myworkdayjobs.com", "uci", "External_Career"),
-    ]
-    for name, host, tenant, site in configured:
-        print(f"  {name}:")
-        probe_cxs(host, tenant, site)
+        probe(name, urls)
 
 
 if __name__ == "__main__":
