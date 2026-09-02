@@ -1,6 +1,6 @@
 # Hospitalist Job Search -- Review Queue
 
-**27 new match(es) awaiting your review.**
+**31 new match(es) awaiting your review.**
 
 For each job you like, run `python -m hospitalist_job_bot approve <job_id>`, then `python -m hospitalist_job_bot apply <job_id>`.
 
@@ -19,6 +19,37 @@ For each job you like, run `python -m hospitalist_job_bot approve <job_id>`, the
 Dear Hiring Team at Jupiter Medical Center,
 
 I am writing to express my interest in the Daytime hospitalist, 7 on/7 off position in South Main, Orange County. I am a board-eligible/certified hospitalist with 14 years of hospital medicine experience, currently practicing at Providence Little Company of Mary, PMA Group (Torrance & San Pedro, CA), where I am also a partner in our group.
+
+- 14 years of hospital medicine experience, including open-ICU coverage, ventilator management, and hemodynamic stabilization alongside intensivists
+- Current partner in a hospitalist group at Providence -- direct experience with group operations and leadership
+- Board certified, American Board of Internal Medicine, with current Maintenance of Certification
+- Track record of stable, long-term commitment to a single health system since 2013
+
+I am relocating to the Orange County area for family reasons, and this opportunity caught my attention (I saw the posting mentions 7 on/7 off, which matches my preference). I am open to full-time, part-time, or per-diem arrangements.
+
+I would welcome the chance to discuss how my experience could contribute to your hospital medicine program. My CV is attached for your review.
+
+Sincerely,
+Nudrat Usman, MD
+nudrat.usman@gmail.com | 310-462-5922
+```
+</details>
+
+## Neurosurgery Hospitalist: 7 on/7 off, No Nights, OC -- American Academy of Family Physicians
+- **job_id:** `0354dc5ddd1ce88e`
+- **score:** 100/100
+- **location:** Anaheim Hills, Orange County
+- **employment type:** full_time
+- **source:** adzuna
+- **link:** https://www.adzuna.com/land/ad/5865091048?se=_jIa4tim8RGh-YqIyElwOA&utm_medium=api&utm_source=c8d12caa&v=B253DB4BD0855BFAC8F7919E400A106276DFB6D0
+- **why it matched:** title matches 'Hospitalist'; location matches 'Orange County'; employment type 'full_time' matches preference; schedule mentions '7 on/7 off'
+
+<details><summary>Drafted cover letter</summary>
+
+```
+Dear Hiring Team at American Academy of Family Physicians,
+
+I am writing to express my interest in the Neurosurgery Hospitalist: 7 on/7 off, No Nights, OC position in Anaheim Hills, Orange County. I am a board-eligible/certified hospitalist with 14 years of hospital medicine experience, currently practicing at Providence Little Company of Mary, PMA Group (Torrance & San Pedro, CA), where I am also a partner in our group.
 
 - 14 years of hospital medicine experience, including open-ICU coverage, ventilator management, and hemodynamic stabilization alongside intensivists
 - Current partner in a hospitalist group at Providence -- direct experience with group operations and leadership
@@ -143,6 +174,37 @@ nudrat.usman@gmail.com | 310-462-5922
 Dear Hiring Team at Jupiter Medical Center,
 
 I am writing to express my interest in the JCMPG Hospitalist Per Diem APRN-PA (Nocturnist) position in South Main, Orange County. I am a board-eligible/certified hospitalist with 14 years of hospital medicine experience, currently practicing at Providence Little Company of Mary, PMA Group (Torrance & San Pedro, CA), where I am also a partner in our group.
+
+- 14 years of hospital medicine experience, including open-ICU coverage, ventilator management, and hemodynamic stabilization alongside intensivists
+- Current partner in a hospitalist group at Providence -- direct experience with group operations and leadership
+- Board certified, American Board of Internal Medicine, with current Maintenance of Certification
+- Track record of stable, long-term commitment to a single health system since 2013
+
+I am relocating to the Orange County area for family reasons, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
+
+I would welcome the chance to discuss how my experience could contribute to your hospital medicine program. My CV is attached for your review.
+
+Sincerely,
+Nudrat Usman, MD
+nudrat.usman@gmail.com | 310-462-5922
+```
+</details>
+
+## Hospitalist Pomona Valley - Physician, PD -- CHOC Specialists
+- **job_id:** `0d3aeab94c4c6807`
+- **score:** 90/100
+- **location:** Orange, Orange County
+- **employment type:** unknown
+- **source:** adzuna
+- **link:** https://www.adzuna.com/details/5587958205?utm_medium=api&utm_source=c8d12caa
+- **why it matched:** title matches 'Hospitalist'; location matches 'Orange County'; employment type 'full_time' matches preference
+
+<details><summary>Drafted cover letter</summary>
+
+```
+Dear Hiring Team at CHOC Specialists,
+
+I am writing to express my interest in the Hospitalist Pomona Valley - Physician, PD position in Orange, Orange County. I am a board-eligible/certified hospitalist with 14 years of hospital medicine experience, currently practicing at Providence Little Company of Mary, PMA Group (Torrance & San Pedro, CA), where I am also a partner in our group.
 
 - 14 years of hospital medicine experience, including open-ICU coverage, ventilator management, and hemodynamic stabilization alongside intensivists
 - Current partner in a hospitalist group at Providence -- direct experience with group operations and leadership
@@ -531,6 +593,68 @@ nudrat.usman@gmail.com | 310-462-5922
 ```
 </details>
 
+## Obstetrics Hospitalist/Laborist Physician -- Providence
+- **job_id:** `256607da72eb4ad7`
+- **score:** 90/100
+- **location:** Orange, Orange County
+- **employment type:** full_time
+- **source:** adzuna
+- **link:** https://www.adzuna.com/land/ad/5866063749?se=_jIa4tim8RGh-YqIyElwOA&utm_medium=api&utm_source=c8d12caa&v=D8013686D9C425CD647B6D3231405DA5107CA662
+- **why it matched:** title matches 'Hospitalist'; location matches 'Orange County'; employment type 'full_time' matches preference
+
+<details><summary>Drafted cover letter</summary>
+
+```
+Dear Hiring Team at Providence,
+
+I am writing to express my interest in the Obstetrics Hospitalist/Laborist Physician position in Orange, Orange County. I am a board-eligible/certified hospitalist with 14 years of hospital medicine experience, currently practicing at Providence Little Company of Mary, PMA Group (Torrance & San Pedro, CA), where I am also a partner in our group.
+
+- 14 years of hospital medicine experience, including open-ICU coverage, ventilator management, and hemodynamic stabilization alongside intensivists
+- Current partner in a hospitalist group at Providence -- direct experience with group operations and leadership
+- Board certified, American Board of Internal Medicine, with current Maintenance of Certification
+- Track record of stable, long-term commitment to a single health system since 2013
+
+I am relocating to the Orange County area for family reasons, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
+
+I would welcome the chance to discuss how my experience could contribute to your hospital medicine program. My CV is attached for your review.
+
+Sincerely,
+Nudrat Usman, MD
+nudrat.usman@gmail.com | 310-462-5922
+```
+</details>
+
+## Hospital Medicine (Neurosurgery) Per Diem Opportunities -- American Academy of Family Physicians
+- **job_id:** `7bc36d5acadc2a51`
+- **score:** 90/100
+- **location:** Anaheim Hills, Orange County
+- **employment type:** full_time
+- **source:** adzuna
+- **link:** https://www.adzuna.com/land/ad/5865105774?se=_jIa4tim8RGh-YqIyElwOA&utm_medium=api&utm_source=c8d12caa&v=0792210ECD484FCA7CC7E98C145F71F92E565845
+- **why it matched:** title matches 'Hospital Medicine'; location matches 'Orange County'; employment type 'full_time' matches preference
+
+<details><summary>Drafted cover letter</summary>
+
+```
+Dear Hiring Team at American Academy of Family Physicians,
+
+I am writing to express my interest in the Hospital Medicine (Neurosurgery) Per Diem Opportunities position in Anaheim Hills, Orange County. I am a board-eligible/certified hospitalist with 14 years of hospital medicine experience, currently practicing at Providence Little Company of Mary, PMA Group (Torrance & San Pedro, CA), where I am also a partner in our group.
+
+- 14 years of hospital medicine experience, including open-ICU coverage, ventilator management, and hemodynamic stabilization alongside intensivists
+- Current partner in a hospitalist group at Providence -- direct experience with group operations and leadership
+- Board certified, American Board of Internal Medicine, with current Maintenance of Certification
+- Track record of stable, long-term commitment to a single health system since 2013
+
+I am relocating to the Orange County area for family reasons, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
+
+I would welcome the chance to discuss how my experience could contribute to your hospital medicine program. My CV is attached for your review.
+
+Sincerely,
+Nudrat Usman, MD
+nudrat.usman@gmail.com | 310-462-5922
+```
+</details>
+
 ## Obstetrics Hospitalist/Laborist Physician -- Provider Solutions & Development
 - **job_id:** `e68bef5a313eb132`
 - **score:** 85/100
@@ -577,37 +701,6 @@ nudrat.usman@gmail.com | 310-462-5922
 Dear Hiring Team at UnitedHealth Group,
 
 I am writing to express my interest in the Hospitalist - Nocturnist with Centers for Family Medicine position in Huntington, Orange County. I am a board-eligible/certified hospitalist with 14 years of hospital medicine experience, currently practicing at Providence Little Company of Mary, PMA Group (Torrance & San Pedro, CA), where I am also a partner in our group.
-
-- 14 years of hospital medicine experience, including open-ICU coverage, ventilator management, and hemodynamic stabilization alongside intensivists
-- Current partner in a hospitalist group at Providence -- direct experience with group operations and leadership
-- Board certified, American Board of Internal Medicine, with current Maintenance of Certification
-- Track record of stable, long-term commitment to a single health system since 2013
-
-I am relocating to the Orange County area for family reasons, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
-
-I would welcome the chance to discuss how my experience could contribute to your hospital medicine program. My CV is attached for your review.
-
-Sincerely,
-Nudrat Usman, MD
-nudrat.usman@gmail.com | 310-462-5922
-```
-</details>
-
-## Hospitalist Pomona Valley - Physician, PD -- CHOC Specialists
-- **job_id:** `0d3aeab94c4c6807`
-- **score:** 85/100
-- **location:** Orange, Orange County
-- **employment type:** unknown
-- **source:** adzuna
-- **link:** https://www.adzuna.com/details/5587958205?utm_medium=api&utm_source=c8d12caa
-- **why it matched:** title matches 'Hospitalist'; location matches 'Orange County'; employment type unspecified by source (partial credit)
-
-<details><summary>Drafted cover letter</summary>
-
-```
-Dear Hiring Team at CHOC Specialists,
-
-I am writing to express my interest in the Hospitalist Pomona Valley - Physician, PD position in Orange, Orange County. I am a board-eligible/certified hospitalist with 14 years of hospital medicine experience, currently practicing at Providence Little Company of Mary, PMA Group (Torrance & San Pedro, CA), where I am also a partner in our group.
 
 - 14 years of hospital medicine experience, including open-ICU coverage, ventilator management, and hemodynamic stabilization alongside intensivists
 - Current partner in a hospitalist group at Providence -- direct experience with group operations and leadership
@@ -825,6 +918,37 @@ nudrat.usman@gmail.com | 310-462-5922
 Dear Hiring Team at Provider Solutions & Development,
 
 I am writing to express my interest in the Obstetrics & Gynecology, Obstetrics Hospitalist/Laborist Physician position in Orange, Orange County. I am a board-eligible/certified hospitalist with 14 years of hospital medicine experience, currently practicing at Providence Little Company of Mary, PMA Group (Torrance & San Pedro, CA), where I am also a partner in our group.
+
+- 14 years of hospital medicine experience, including open-ICU coverage, ventilator management, and hemodynamic stabilization alongside intensivists
+- Current partner in a hospitalist group at Providence -- direct experience with group operations and leadership
+- Board certified, American Board of Internal Medicine, with current Maintenance of Certification
+- Track record of stable, long-term commitment to a single health system since 2013
+
+I am relocating to the Orange County area for family reasons, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
+
+I would welcome the chance to discuss how my experience could contribute to your hospital medicine program. My CV is attached for your review.
+
+Sincerely,
+Nudrat Usman, MD
+nudrat.usman@gmail.com | 310-462-5922
+```
+</details>
+
+## Nurse Practitioner / Physician Assistant - Hospitalist Program (Day & Night Opportunities) -- Astrana Health, Inc.
+- **job_id:** `8ec96275f46e99bc`
+- **score:** 85/100
+- **location:** Tustin, Orange County
+- **employment type:** unknown
+- **source:** adzuna
+- **link:** https://www.adzuna.com/land/ad/5866524403?se=_jIa4tim8RGh-YqIyElwOA&utm_medium=api&utm_source=c8d12caa&v=0B535243A1F31847FA2A6DC73376D6F69F8C28DE
+- **why it matched:** title matches 'Hospitalist'; location matches 'Orange County'; employment type unspecified by source (partial credit)
+
+<details><summary>Drafted cover letter</summary>
+
+```
+Dear Hiring Team at Astrana Health, Inc.,
+
+I am writing to express my interest in the Nurse Practitioner / Physician Assistant - Hospitalist Program (Day & Night Opportunities) position in Tustin, Orange County. I am a board-eligible/certified hospitalist with 14 years of hospital medicine experience, currently practicing at Providence Little Company of Mary, PMA Group (Torrance & San Pedro, CA), where I am also a partner in our group.
 
 - 14 years of hospital medicine experience, including open-ICU coverage, ventilator management, and hemodynamic stabilization alongside intensivists
 - Current partner in a hospitalist group at Providence -- direct experience with group operations and leadership
