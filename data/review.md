@@ -1,6 +1,6 @@
 # Hospitalist Job Search -- Review Queue
 
-**11 new match(es) awaiting your review.**
+**14 new match(es) awaiting your review.**
 
 For each job you like, run `python -m hospitalist_job_bot approve <job_id>`, then `python -m hospitalist_job_bot apply <job_id>`.
 
@@ -329,6 +329,99 @@ nudrat.usman@gmail.com | 310-462-5922
 Dear Hiring Team at CHOC Specialists,
 
 I am writing to express my interest in the Critical Care Hospitalist - Physician, PD position in Orange, Orange County. I am a board-eligible/certified hospitalist with 14 years of hospital medicine experience, currently practicing at Providence Little Company of Mary, PMA Group (Torrance & San Pedro, CA), where I am also a partner in our group.
+
+- 14 years of hospital medicine experience, including open-ICU coverage, ventilator management, and hemodynamic stabilization alongside intensivists
+- Current partner in a hospitalist group at Providence -- direct experience with group operations and leadership
+- Board certified, American Board of Internal Medicine, with current Maintenance of Certification
+- Track record of stable, long-term commitment to a single health system since 2013
+
+I am relocating to the Orange County area for family reasons, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
+
+I would welcome the chance to discuss how my experience could contribute to your hospital medicine program. My CV is attached for your review.
+
+Sincerely,
+Nudrat Usman, MD
+nudrat.usman@gmail.com | 310-462-5922
+```
+</details>
+
+## Hospitalist - Physician -- Rady Children's Health-Orange County
+- **job_id:** `458b1379b0e9e9af`
+- **score:** 85/100
+- **location:** Orange, Orange County
+- **employment type:** unknown
+- **source:** adzuna
+- **link:** https://www.adzuna.com/land/ad/5928169864?se=9EdctcPI8RGgYcdhZypWfA&utm_medium=api&utm_source=c8d12caa&v=DFD5163862E21EC84B9C7A10C3B314E860D2E528
+- **why it matched:** title matches 'Hospitalist'; location matches 'Orange County'; employment type unspecified by source (partial credit)
+
+<details><summary>Drafted cover letter</summary>
+
+```
+Dear Hiring Team at Rady Children's Health-Orange County,
+
+I am writing to express my interest in the Hospitalist - Physician position in Orange, Orange County. I am a board-eligible/certified hospitalist with 14 years of hospital medicine experience, currently practicing at Providence Little Company of Mary, PMA Group (Torrance & San Pedro, CA), where I am also a partner in our group.
+
+- 14 years of hospital medicine experience, including open-ICU coverage, ventilator management, and hemodynamic stabilization alongside intensivists
+- Current partner in a hospitalist group at Providence -- direct experience with group operations and leadership
+- Board certified, American Board of Internal Medicine, with current Maintenance of Certification
+- Track record of stable, long-term commitment to a single health system since 2013
+
+I am relocating to the Orange County area for family reasons, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
+
+I would welcome the chance to discuss how my experience could contribute to your hospital medicine program. My CV is attached for your review.
+
+Sincerely,
+Nudrat Usman, MD
+nudrat.usman@gmail.com | 310-462-5922
+```
+</details>
+
+## Critical Care Hospitalist - Physician -- Rady Children's Health-Orange County
+- **job_id:** `8aef876e13284be3`
+- **score:** 85/100
+- **location:** Orange, Orange County
+- **employment type:** unknown
+- **source:** adzuna
+- **link:** https://www.adzuna.com/land/ad/5928126835?se=9EdctcPI8RGgYcdhZypWfA&utm_medium=api&utm_source=c8d12caa&v=8B2BAD0D0C5E4A441ADCF99335CAE48474418AE6
+- **why it matched:** title matches 'Hospitalist'; location matches 'Orange County'; employment type unspecified by source (partial credit)
+
+<details><summary>Drafted cover letter</summary>
+
+```
+Dear Hiring Team at Rady Children's Health-Orange County,
+
+I am writing to express my interest in the Critical Care Hospitalist - Physician position in Orange, Orange County. I am a board-eligible/certified hospitalist with 14 years of hospital medicine experience, currently practicing at Providence Little Company of Mary, PMA Group (Torrance & San Pedro, CA), where I am also a partner in our group.
+
+- 14 years of hospital medicine experience, including open-ICU coverage, ventilator management, and hemodynamic stabilization alongside intensivists
+- Current partner in a hospitalist group at Providence -- direct experience with group operations and leadership
+- Board certified, American Board of Internal Medicine, with current Maintenance of Certification
+- Track record of stable, long-term commitment to a single health system since 2013
+
+I am relocating to the Orange County area for family reasons, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
+
+I would welcome the chance to discuss how my experience could contribute to your hospital medicine program. My CV is attached for your review.
+
+Sincerely,
+Nudrat Usman, MD
+nudrat.usman@gmail.com | 310-462-5922
+```
+</details>
+
+## Critical Care Hospitalist - Physician -- Rady Children's Health-Orange County
+- **job_id:** `ad3138ecfbd9fcb9`
+- **score:** 85/100
+- **location:** Villa Park, Orange County
+- **employment type:** unknown
+- **source:** adzuna
+- **link:** https://www.adzuna.com/land/ad/5928451880?se=9EdctcPI8RGgYcdhZypWfA&utm_medium=api&utm_source=c8d12caa&v=D44AC27776C009DC2F7C080823BC0C17DF64A3EE
+- **why it matched:** title matches 'Hospitalist'; location matches 'Orange County'; employment type unspecified by source (partial credit)
+
+<details><summary>Drafted cover letter</summary>
+
+```
+Dear Hiring Team at Rady Children's Health-Orange County,
+
+I am writing to express my interest in the Critical Care Hospitalist - Physician position in Villa Park, Orange County. I am a board-eligible/certified hospitalist with 14 years of hospital medicine experience, currently practicing at Providence Little Company of Mary, PMA Group (Torrance & San Pedro, CA), where I am also a partner in our group.
 
 - 14 years of hospital medicine experience, including open-ICU coverage, ventilator management, and hemodynamic stabilization alongside intensivists
 - Current partner in a hospitalist group at Providence -- direct experience with group operations and leadership
