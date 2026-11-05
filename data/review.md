@@ -1,6 +1,6 @@
 # Hospitalist Job Search -- Review Queue
 
-**21 new match(es) awaiting your review.**
+**22 new match(es) awaiting your review.**
 
 For each job you like, run `python -m hospitalist_job_bot approve <job_id>`, then `python -m hospitalist_job_bot apply <job_id>`.
 
@@ -484,6 +484,37 @@ nudrat.usman@gmail.com | 310-462-5922
 Dear Hiring Team at CHOC Specialists,
 
 I am writing to express my interest in the Critical Care Hospitalist - Physician position in Orange, Orange County. I am a board-eligible/certified hospitalist with 14 years of hospital medicine experience, currently practicing at Providence Little Company of Mary, PMA Group (Torrance & San Pedro, CA), where I am also a partner in our group.
+
+- 14 years of hospital medicine experience, including open-ICU coverage, ventilator management, and hemodynamic stabilization alongside intensivists
+- Current partner in a hospitalist group at Providence -- direct experience with group operations and leadership
+- Board certified, American Board of Internal Medicine, with current Maintenance of Certification
+- Track record of stable, long-term commitment to a single health system since 2013
+
+I am relocating to the Orange County area for family reasons, and this opportunity caught my attention. I am open to full-time, part-time, or per-diem arrangements.
+
+I would welcome the chance to discuss how my experience could contribute to your hospital medicine program. My CV is attached for your review.
+
+Sincerely,
+Nudrat Usman, MD
+nudrat.usman@gmail.com | 310-462-5922
+```
+</details>
+
+## OB/GYN Physician, Laborist/Hospitalist - Optum, Crystal Run - Newburgh, NY -- Optum
+- **job_id:** `4f97c1626f527b94`
+- **score:** 90/100
+- **location:** Anaheim, Orange County
+- **employment type:** full_time
+- **source:** adzuna
+- **link:** https://www.adzuna.com/land/ad/5954664016?se=LlzlslvZ8RGfyN3H3ce7sQ&utm_medium=api&utm_source=c8d12caa&v=EB40391013AB0771614EC7A7B3F3BC02FAC101C7
+- **why it matched:** title matches 'Hospitalist'; location matches 'Orange County'; employment type 'full_time' matches preference
+
+<details><summary>Drafted cover letter</summary>
+
+```
+Dear Hiring Team at Optum,
+
+I am writing to express my interest in the OB/GYN Physician, Laborist/Hospitalist - Optum, Crystal Run - Newburgh, NY position in Anaheim, Orange County. I am a board-eligible/certified hospitalist with 14 years of hospital medicine experience, currently practicing at Providence Little Company of Mary, PMA Group (Torrance & San Pedro, CA), where I am also a partner in our group.
 
 - 14 years of hospital medicine experience, including open-ICU coverage, ventilator management, and hemodynamic stabilization alongside intensivists
 - Current partner in a hospitalist group at Providence -- direct experience with group operations and leadership
